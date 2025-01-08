@@ -1,0 +1,253 @@
+
+
+body {
+	background-color: grey;
+	cursor: default;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#outline {
+	outline: #c6c6c6 solid 1px;
+	width:80%;
+	min-width: 1075px;
+	margin:auto;
+	padding-bottom: 2%;
+	margin-top: 2%;
+	overflow:hidden;
+	background-color:white;
+
+
+}
+#container {
+	outline: gainsboro solid 1px;
+	overflow-x: scroll; 
+	position: relative;
+	z-index: 1;
+    margin: 0 auto;
+	display: block;
+	max-height: 60%;
+	width: 1035px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 2em;
+}
+	#imageContainer {	
+		outline: #c6c6c6 solid 1px;
+	}
+	#titleText {
+		font-family: 'Merriweather';
+	}
+	#titleTextInner {
+		text-align: center; 
+		font-size: 4vw; 
+		margin-top: 40px;
+        
+	}
+	#subtitleTextInner {
+		text-align: center; 
+		font-size: 2vw;
+        color: grey;
+		
+	}
+	
+.card {
+	position: absolute;
+	z-index: 3;
+	background-color: white;
+	opacity: 0.85;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	max-height: 300px;
+	overflow: scroll;
+    text-align: justify;
+	
+}
+
+#cardArr {
+	top: 1810px;
+	margin-left: 250px;
+}
+
+#cardBalls {
+	top: 900px;
+	margin-left: 600px;
+}
+
+#cardXing {
+	top: 600px;
+	margin-left: 200px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.padding {
+	padding: 2px 16px;
+}
+
+
+
+#cardArr-point {
+	position: absolute;
+	z-index: 3;
+	top: 2100px;
+	margin-left: 760px;
+	color: firebrick;
+	font-size:50px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#cardBalls-point {
+	position: absolute;
+	z-index: 3;
+	top: 970px;
+	margin-left: 475px;
+	color: firebrick;
+	font-size:50px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+#cardXing-point {
+	position: absolute;
+	z-index: 3;
+	top: 790px;
+	margin-left: 500px;
+	color: firebrick;
+	font-size:50px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+div#outline ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	text-align:center;
+	margin-left: 40%;
+}
+
+li {
+
+    float: left;
+	font-family: 'Merriweather';
+	font-size: 16px;
+}
+
+li a {
+
+
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+   color: #c6c6c6;
+}
+
+.footer {
+	
+	text-align: center;
+	font-family: 'Merriweather';
+	font-size: 10px;
+	margin-top: 40px;
+	
+	
+}
+
+#timeline {
+	position: fixed;
+	display: block;
+	top:28%;
+	padding: .5vw;
+	margin-left: 930px;
+	z-index: 3;
+	background-color: white;
+	opacity: 0.85;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80px;
+	height: 20px;
+    border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	color: black;
+}
+
+
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+  
+}
+
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 200px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  opacity: 0.8;
+  
+}
+
+#boxes #dialog {
+  width: 750px;
+  height: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 12pt;
+  padding: 30px;
+}
+
+#popupfoot {
+  font-size: 15pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 250px;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  padding-bottom:50px;
+  
+}
+
+#popupfoot a {
+    color:firebrick;
+    text-decoration: none;
+}
+
+.leftDiv {
+    float:left;
+    width: 500px;
+    text-align: justify;
+    
+}
+
+.rightDiv img {
+    
+    float: right;
+    width: 200px;
+    outline: #c6c6c6 solid 1px;
+	margin-right: 10px;
+    
+}
+	
